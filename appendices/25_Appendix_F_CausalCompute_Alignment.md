@@ -194,11 +194,13 @@ $$
 ## F.11 PoC Evidence Gates
 
 1. Power → heat closure:
+
 $$
 \dot Q \approx P_{IT}
 $$
 
 2. Flow law:
+
 $$
 \dot m = \frac{\dot Q}{c_p \, \Delta T}
 $$
@@ -207,10 +209,6 @@ $$
 
 4. Digital twin accuracy: per Appendix B
 
----
 
-## F.13 Exhibit F-1 — Witness Brief
-
-`/exhibits/causalcompute_witness_405B.yaml`
 
 **End of Appendix F**
