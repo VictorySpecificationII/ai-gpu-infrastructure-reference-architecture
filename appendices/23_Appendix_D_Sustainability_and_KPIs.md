@@ -243,10 +243,13 @@ Interpretation: even at ~5 MW class loads, adiabatic hours must be explicitly co
 To make the PoC defensible:
 
 1. Verify $P_{IT}(t)$, $P_{fac}(t)$ and compute $\text{PUE}(t)$
+
 2. Verify heat balance closure:
+
 $$
 P_{IT} \approx \rho c_p \dot V \Delta T + \text{loss terms}
 $$
+
 3. If export exists, verify heat meter accuracy and availability
 4. If adiabatic exists, verify make-up meter and compute $\text{WUE}(t)$
 5. Time-sync audit: confirm timestamp alignment across power + flow + temperature
