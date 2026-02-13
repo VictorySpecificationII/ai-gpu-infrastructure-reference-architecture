@@ -119,15 +119,13 @@ The facility admits any workload whose boundary image lies in:
 
 $$
 \mathcal{A} =
-\left\{
-\begin{aligned}
-P(t) &\le 10\ \text{MW} \\
-|\Delta P| &\le 0.2\ \text{MW/block} \\
-|dP/dt| &\le 0.1\ \text{MW/s} \\
-T_{TC} &\in [T_{min},T_{max}] \\
-\dot m &\ge \dot m_{min}
-\end{aligned}
-\right.
+\begin{cases}
+P(t) \le 10\ \text{MW} \\
+|\Delta P| \le 0.2\ \text{MW/block} \\
+\left|\frac{dP}{dt}\right| \le 0.1\ \text{MW/s} \\
+T_{TC} \in [T_{min},T_{max}] \\
+\dot m \ge \dot m_{min}
+\end{cases}
 $$
 
 Workload mathematics therefore act as the **projection operator** into this admissible set.
