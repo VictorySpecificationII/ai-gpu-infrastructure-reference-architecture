@@ -214,17 +214,31 @@ Minimum per zone:
 Acceptance tests derived from this appendix:
 
 1. Flow verification:
+
 $$
 \dot V_{zone} \ge 20\ \text{L/s}
 $$
 
-2. $\Delta P$ envelope:
+2. Pressure envelope:
+
 $$
 \Delta P_{zone} \le 100\ \text{kPa}
 $$
 
-3. Velocity audit: confirm $v \le 2\ \text{m/s}$ in primaries
+3. Velocity audit:
 
-4. Transient test: staged valve closure without excursions
+Confirm
 
-5. Leak isolation: single-zone containment proven
+$$
+v \le 2\ \text{m/s}
+$$
+
+in primary headers.
+
+4. Transient test:
+
+Staged valve closure without excursions beyond the defined $\Delta P$ envelope.
+
+5. Leak isolation:
+
+Single-zone containment proven.
