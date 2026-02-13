@@ -86,31 +86,43 @@ $$
 ### E.7.1 Electrical Tests
 
 - Replay ramp to confirm:
+
 $$
 \left|\frac{dP}{dt}\right| \le 0.1\ \text{MW/s}
 $$
+
 - Verify per-block metering and coordination
+
 - Bypass and transfer tests
+
 
 ### E.7.2 Mechanical Tests
 
 - Prove:
+
 $$
 \dot V_{zone} \ge 20\ \text{L/s}
 $$
+
 - Confirm:
+
 $$
 \Delta P_{zone} \le 100\ \text{kPa}
 $$
+
 - Leak isolation within single zone
+
 
 ### E.7.3 Twin Validation
 
 - RMSE:
+
 $$
 \le 0.5^\circ\text{C}
 $$
+
 - Fault injection for drift and flow loss
+
 
 ### E.7.4 Sustainability
 
